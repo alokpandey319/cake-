@@ -9,10 +9,9 @@ export function Alok (state ={},{type,payload}){
         }
         case "Order": {
             state = { ...state }
-            state['orderplace']=payload
+            state['oderplace']=payload
             return state
-        }
- 
+        } 
         default : return state
     }
  }

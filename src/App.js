@@ -16,11 +16,14 @@ import DashBoard from './Component/Dashbord';
 import Cart from './Component/Cart';
 import {toast} from "react-toastify"
 import 'react-toastify/dist/ReactToastify.css'
-import Buy from './Component/Buy'
 import Orderlist from './Myreducer/Orderlist';
 import Addcake from './Component/Addcake';
 import { useEffect } from 'react';
 import OrderSummery from './Component/OrderSummery';
+import CartSumary from "./Component/CartSumary";
+import Address from "./Component/Address";
+import Routes from "./Component/Routes";
+import Buy from "./Component/Buy";
 
 
 
@@ -48,10 +51,13 @@ function App() {
         <Route exact path="/details"component={Details}/>
         <Route exact path="/dashboard"component={DashBoard}/>
         <Route exact path="/cart"component={Cart}/>
-        <Route exact path="/buy"component={Buy}/>
         <Route exact path="/orderlist"component={Orderlist}/>
         <Route exact path="/Adcake"component={Addcake}/>
         <Route exact path="/OrderSummery"component={OrderSummery}/>
+        <Route exact path="/cartsumary"component={CartSumary}/>
+        <Route exact path="/address"component={Address}/>
+        <Route exact path="/route"component={Routes}/>
+        <Route exact path="/buy"component={Buy}/>
 
 
       
